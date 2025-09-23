@@ -24,7 +24,7 @@ Name | Type | Description | Notes
 **previous_observation_taxon_id** | Option<**i32**> |  | [optional]
 **spam** | Option<**bool**> |  | [optional]
 **hidden** | Option<**bool**> |  | [optional]
-**moderator_actions** | Option<[**models::ModeratorAction**](ModeratorAction.md)> |  | [optional]
+**moderator_actions** | Option<[**Vec<models::ModeratorAction>**](ModeratorAction.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

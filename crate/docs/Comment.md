@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **user** | Option<[**models::User**](User.md)> |  | [optional]
 **flags** | Option<[**Vec<models::Flag>**](Flag.md)> |  | [optional]
 **hidden** | Option<**bool**> |  | [optional]
-**moderator_actions** | Option<[**models::ModeratorAction**](ModeratorAction.md)> |  | [optional]
+**moderator_actions** | Option<[**Vec<models::ModeratorAction>**](ModeratorAction.md)> |  | [optional]
 **uuid** | Option<**String**> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

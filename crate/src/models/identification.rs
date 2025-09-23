@@ -60,7 +60,7 @@ pub struct Identification {
     #[serde(rename = "hidden", skip_serializing_if = "Option::is_none")]
     pub hidden: Option<bool>,
     #[serde(rename = "moderator_actions", skip_serializing_if = "Option::is_none")]
-    pub moderator_actions: Option<Box<models::ModeratorAction>>,
+    pub moderator_actions: Option<Vec<models::ModeratorAction>>,
 }
 
 impl Identification {
