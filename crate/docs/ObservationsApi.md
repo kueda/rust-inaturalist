@@ -390,7 +390,7 @@ Name | Type | Description  | Required | Notes
 
 ### Authorization
 
-No authorization required
+[api_token](../README.md#api_token)
 
 ### HTTP request headers
 
