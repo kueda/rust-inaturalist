@@ -19,6 +19,16 @@ pub struct Sound {
     pub attribution: Option<String>,
     #[serde(rename = "license_code", skip_serializing_if = "Option::is_none")]
     pub license_code: Option<String>,
+    #[serde(rename = "file_url", skip_serializing_if = "Option::is_none")]
+    pub file_url: Option<String>,
+    #[serde(rename = "file_content_type", skip_serializing_if = "Option::is_none")]
+    pub file_content_type: Option<String>,
+    #[serde(rename = "flags", skip_serializing_if = "Option::is_none")]
+    pub flags: Option<Vec<models::Flag>>,
+    #[serde(rename = "hidden", skip_serializing_if = "Option::is_none")]
+    pub hidden: Option<bool>,
+    #[serde(rename = "moderator_actions", skip_serializing_if = "Option::is_none")]
+    pub moderator_actions: Option<Vec<models::ModeratorAction>>,
 }
 
 impl Sound {
@@ -27,6 +37,11 @@ impl Sound {
             id: None,
             attribution: None,
             license_code: None,
+            file_url: None,
+            file_content_type: None,
+            flags: None,
+            hidden: None,
+            moderator_actions: None,
         }
     }
 }
